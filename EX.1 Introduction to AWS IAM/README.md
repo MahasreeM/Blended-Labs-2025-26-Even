@@ -69,5 +69,6 @@ This lab provided hands-on experience with AWS IAM by demonstrating how organiza
 
 ## Author
 **Name:** MAHA SHREE M (212224110035)
+
 **Course:** Introduction to Cloud Computing  
 

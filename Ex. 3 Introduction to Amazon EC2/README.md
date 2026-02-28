@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**:MAHA SHREE M
+* **Register Number**: 212224110035
+* **Date of Submission** : 28-02-26
 
 ---
 
@@ -98,11 +98,16 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. Log in to the AWS Management Console and navigate to the EC2 Dashboard to explore sections such as Instances, AMIs, Instance Types, Key Pairs, Security Groups, and Elastic IPs.
+   
+2.Launch a new EC2 instance using Amazon Linux 2 AMI, select the t2.micro instance type, configure the instance name, create/select a key pair, and configure the security group.
+
+3.Configure the Security Group to allow inbound SSH (Port 22) from my IP address and HTTP (Port 80) from anywhere (0.0.0.0/0).
+
+4.Connect to the running EC2 instance using SSH with the downloaded key pair and perform basic instance operations such as stop, start, and reboot from the EC2 console.
+
+5.Monitor the EC2 instance using the Monitoring tab to observe performance metrics, and finally terminate the instance after completing the experiment.
+
 
 ---
 
@@ -110,21 +115,19 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 ### Screenshot 1: EC2 Dashboard / Instance List
 
-(Insert Screenshot Here)
+<img width="1920" height="1200" alt="Screenshot (185)" src="https://github.com/user-attachments/assets/ca4aa5d9-d7c9-4768-b5e6-0929f67b3665" />
 
----
 
 ### Screenshot 2: SSH Connection to Instance
 
-(Insert Screenshot Here)
+<img width="1920" height="1200" alt="Screenshot (187)" src="https://github.com/user-attachments/assets/f4a15995-2079-4819-ba3b-b4bac0d85848" />
 
----
+<img width="1920" height="1200" alt="Screenshot (189)" src="https://github.com/user-attachments/assets/e402e536-731f-414a-b80a-bcdd48b961e7" />
 
 ### Screenshot 3: Instance Monitoring / Status
 
-(Insert Screenshot Here)
+<img width="1920" height="1200" alt="Screenshot (186)" src="https://github.com/user-attachments/assets/dfc46ac7-c048-4813-b343-cabc0d0441a3" />
 
----
 
 ## Result 
 

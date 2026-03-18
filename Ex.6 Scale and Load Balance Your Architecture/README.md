@@ -3,7 +3,9 @@
 ## Title
 
 Scale and Load Balance Your Architecture
-Author : your name   Reg no : yours   Date :
+Author : MAHA SHREE M
+Reg no : 212224110035
+yours   Date : 18-03-26
 
 ---
 
@@ -66,15 +68,28 @@ Students test the setup by generating traffic and observing automatic scaling an
 
 ## Workflow (To be filled by Student)
 
-Describe step-by-step how you performed this experiment in your own words.
+
+1.Review Existing Architecture – Examine the previously created Amazon EC2 application setup and understand how the current infrastructure works. 
+
+2.Create Launch Template – Configure a launch template specifying the AMI, instance type, security group, and user data for EC2 instances. 
+
+3.Set Up Auto Scaling Group – Create an Auto Scaling Group using the launch template and define the minimum, maximum, and desired instance capacity. 
+
+4.Configure Application Load Balancer – Set up an AWS Application Load Balancer and create target groups to distribute incoming traffic across EC2 instances. 
+
+5.Attach and Test Scaling – Connect the Auto Scaling Group to the load balancer target group, configure CPU-based scaling policies using Amazon CloudWatch, and test by generating traffic to observe load balancing and automatic scaling.
 
 ---
 
 ## Output Screenshots 
 
+<img width="1633" height="813" alt="Screenshot 2026-03-18 183140" src="https://github.com/user-attachments/assets/bec5c7d1-6b70-45bc-b5f2-17512619b51f" />
 
----
+<img width="1629" height="812" alt="Screenshot 2026-03-18 183204" src="https://github.com/user-attachments/assets/81cf3920-099a-4047-9f1f-f6a74aa5b859" />
 
+<img width="1630" height="810" alt="Screenshot 2026-03-18 183232" src="https://github.com/user-attachments/assets/650a2cdb-0122-426d-b5b8-2e254c29c701" />
+
+<img width="1381" height="830" alt="Screenshot 2026-03-18 183306" src="https://github.com/user-attachments/assets/c343e1de-28e5-4728-830b-3174ad92b493" />
 
 ## Result
 
